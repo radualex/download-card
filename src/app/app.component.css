@@ -1,5 +1,9 @@
 .wrapper {
   margin: 0;
+  width: 99vw;
+  height: 99vh;
+  background: #f2f2f2;
+
   display: flex;
   justify-content: center;
   align-items: center;

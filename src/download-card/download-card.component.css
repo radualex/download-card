@@ -1,0 +1,115 @@
+.wrapper {
+  background: #ffffff;
+  box-shadow: 0px 25px 35px -25px #c2cdec;
+  width: 414px;
+  height: 204px;
+
+  padding: 50px 50px 60px 50px;
+}
+
+.wrapper .header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 40px 0;
+}
+
+.wrapper .header .title {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 35px;
+
+  color: #202842;
+
+  margin: 0 0 5px 0;
+}
+
+.wrapper .header .description {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  width: 347px;
+
+  color: #202842;
+}
+
+.wrapper .content-header {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #202842;
+}
+
+.wrapper .content {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .content select {
+  width: 266px;
+  height: 56px;
+
+  background: #ffffff;
+  border: 1px solid rgb(210, 212, 217, 0.2);
+  border-radius: 5px;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #202842;
+
+  padding: 0 20px;
+  margin: 5px 10px 0 0;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  background: url("https://cdn3.iconfinder.com/data/icons/iconset-1-1/24/icon_set_outlinder-02-512.png")
+    no-repeat right;
+  background-size: 8%;
+  background-position-x: 229px;
+}
+
+.wrapper .content select:focus {
+  outline: none;
+}
+
+.wrapper .content button {
+  width: 138px;
+  height: 56px;
+
+  border-radius: 5px;
+  border: none;
+  background: #202842;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.wrapper .content button:focus {
+  outline: none;
+  border: none;
+}
+
+.wrapper .content button:active {
+  outline: none;
+  border: none;
+}
