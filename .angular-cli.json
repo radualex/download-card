@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "root": "src",
+      "root": "./src",
       "outDir": "dist",
       "assets": ["assets", "favicon.ico"],
       "index": "index.html",
@@ -10,7 +10,7 @@
       "prefix": "app",
       "styles": ["styles.css"],
       "scripts": [],
-      "tsconfig": "tsconfig.json",
+      "tsconfig": "../tsconfig.json",
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
