@@ -8,10 +8,12 @@
   </div>
   <span class="content-header">Choose your design application</span>
   <div class="content">
-    <select>
-      <option value="" disabled selected>Select one</option>
-      <!-- <option value="hurr">Durr</option> -->
+    <select required [(ngModel)]="selectedFile">
+      <option disabled selected>Select one</option>
+      <option *ngFor="let file of files" [ngValue]="file.fileName"
+        >{{file.option}}</option
+      >
     </select>
-    <button>Download</button>
+    <button (click)="downloadFile()">Download</button>
   </div>
 </div>

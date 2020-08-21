@@ -109,6 +109,10 @@
   border: none;
 }
 
+.wrapper .content button:hover {
+  cursor: pointer;
+}
+
 .wrapper .content button:active {
   outline: none;
   border: none;
