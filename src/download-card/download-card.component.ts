@@ -29,7 +29,7 @@ export class DownloadCardComponent implements OnInit {
     let link = document.createElement("a");
     link.setAttribute("type", "hidden");
     link.href = `../assets/${this.selectedFile}`;
-    link.download = `filename`;
+    link.download = `${this.selectedFile}`;
     link.target = "_blank";
     document.body.querySelector("app-root").append(link);
     link.click();
